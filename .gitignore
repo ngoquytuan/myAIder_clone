@@ -1,0 +1,32 @@
+# Aider cloned repository
+# We don't commit the cloned source code, only the analysis reports
+aider/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.aider.cache/
+*.cache
+
+# Logs
+*.log
+logs/
